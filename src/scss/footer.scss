@@ -1,0 +1,79 @@
+.footer {
+  display: none;
+  max-width: 723px;
+  width: 100%;
+  margin: 0 auto;
+  h2 {
+    font-family: 'Orchidea Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+  p {
+    font-size: 20px;
+    line-height: 130%;
+    max-width: 391px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Soluzione-bottom {
+    .right {
+      position: relative;
+      .number {
+        position: absolute;
+        right: 24px;
+      }
+    }
+    .number {
+      background: #0d2b6d;
+      width: 50px;
+      font-size: 35px;
+      line-height: 55px;
+      height: 100px;
+      top: -10px;
+      right: -24px;
+      position: relative;
+      color: #fda700;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top: 50px solid#0D2B6D;
+        border-right: 50px solid #f3f3f3;
+      }
+    }
+    .item {
+      background: #f3f3f3;
+      margin: 20px;
+
+      .text {
+        max-width: 500px;
+        width: 100%;
+        margin: 40px auto;
+        h4 {
+          font-family: 'Orchidea Pro';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 30px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #fda700;
+        }
+        p {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 130%;
+          text-align: center;
+          color: #373737;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,496 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/*
+  &::-webkit-scrollbar {
+      display: none;
+  }
+  */
+
+.container {
+  max-width: 1249px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header p {
+  font-size: 20px;
+  color: white;
+}
+
+.header .new-account a {
+  font-size: 20px;
+  color: #fda700;
+  padding: 14px 37px;
+  border: 1px solid;
+}
+
+.main {
+  padding-top: 101px;
+}
+
+.main h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-right: -100px;
+}
+
+.main h1 span {
+  color: #fda700;
+}
+
+.main p {
+  max-width: 623px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.main .play {
+  margin: 40px 0;
+}
+
+.main .registrazione {
+  padding: 50px 35px 59px 35px;
+  background: rgba(13, 43, 109, 0.8);
+  border-radius: 10px;
+}
+
+.main .registrazione h2 {
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fda700;
+}
+
+.main .registrazione .form-control {
+  background: #0d2b6d;
+  color: white;
+}
+
+.main .registrazione .form-control::-webkit-input-placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.main .registrazione .form-control::-moz-placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.main .registrazione .form-control:-ms-input-placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.main .registrazione .form-control::-ms-input-placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.main .registrazione .form-control::placeholder {
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.main .registrazione .iti {
+  width: 100%;
+  color: white;
+}
+
+.main .registrazione button {
+  padding: 18px 0;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main .registrazione button:hover {
+  -webkit-transition: 0.3 all ease;
+  -o-transition: 0.3 all ease;
+  transition: 0.3 all ease;
+  background: #fda700;
+  color: #373737;
+  border-radius: 10px;
+}
+
+.main .item-bottom {
+  margin-top: 162px;
+  padding: 22px 13px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.main .item-bottom p {
+  color: #373737;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  padding: 0 16px;
+}
+
+.main .item-bottom a {
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 12px 25px;
+  color: #373737;
+  border-radius: 10px;
+}
+
+.main .item-bottom a:hover {
+  background-color: #0d2b6d;
+  color: #fda700;
+}
+
+.hero {
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.support {
+  background: #0d2b6d;
+  padding: 50px 0;
+}
+
+.support .name {
+  margin-left: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.support .name span {
+  color: #fda700;
+}
+
+.problema {
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+
+.problema .content {
+  position: relative;
+  padding: 68px 82px 103px;
+  background: #f3f3f3;
+  -webkit-box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
+          box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
+  border-radius: 10px;
+}
+
+.problema .title {
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #373737;
+  padding-bottom: 40px;
+}
+
+.problema .item h4 {
+  position: relative;
+  text-align: center;
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fda700;
+  background: #0d2b6d;
+  border-radius: 10px;
+  padding: 11px 25px;
+}
+
+.problema .item h4::after {
+  position: absolute;
+  content: "";
+  top: 2px;
+  right: 4px;
+  left: 4px;
+  bottom: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.problema .item p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #373737;
+}
+
+.problema .item p span {
+  color: #fda700;
+}
+
+.problema .button-bottom {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  line-height: 84px;
+  text-align: center;
+  background: #0d2b6d;
+  border-radius: 50%;
+  bottom: -42px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: white;
+  font-size: 40px;
+}
+
+.problema .button-bottom::after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  right: 4px;
+  left: 4px;
+  bottom: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.footer {
+  display: none;
+  max-width: 723px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer h2 {
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.footer p {
+  font-size: 20px;
+  line-height: 130%;
+  max-width: 391px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer .Soluzione-bottom .right {
+  position: relative;
+}
+
+.footer .Soluzione-bottom .right .number {
+  position: absolute;
+  right: 24px;
+}
+
+.footer .Soluzione-bottom .number {
+  background: #0d2b6d;
+  width: 50px;
+  font-size: 35px;
+  line-height: 55px;
+  height: 100px;
+  top: -10px;
+  right: -24px;
+  position: relative;
+  color: #fda700;
+}
+
+.footer .Soluzione-bottom .number::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top: 50px solid #0D2B6D;
+  border-right: 50px solid #f3f3f3;
+}
+
+.footer .Soluzione-bottom .item {
+  background: #f3f3f3;
+  margin: 20px;
+}
+
+.footer .Soluzione-bottom .item .text {
+  max-width: 500px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.footer .Soluzione-bottom .item .text h4 {
+  font-family: "Orchidea Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fda700;
+}
+
+.footer .Soluzione-bottom .item .text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #373737;
+}
+
+@media (max-width: 991px) {
+  .main h1 {
+    margin-right: 0;
+  }
+
+  .support {
+    margin: 20px 20px;
+    border-radius: 10px;
+  }
+
+  .support .item {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo p {
+    display: none;
+  }
+
+  .hero {
+    background: url(../img/mob.jpg) no-repeat;
+  }
+
+  .footer {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .burger-menu_nav {
+    max-width: unset;
+  }
+}
+
+.webp .hero { background: url(../img/bg.webp) no-repeat; }
+
+@media (max-width: 768px) {
+
+  .webp .hero { background: url(../img/mob.webp) no-repeat; }
+}

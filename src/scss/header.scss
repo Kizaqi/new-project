@@ -1,0 +1,118 @@
+.header {
+  p {
+    font-size: 20px;
+    color: white;
+  }
+  .new-account {
+    a {
+      font-size: 20px;
+      color: #fda700;
+      padding: 14px 37px;
+      border: 1px solid;
+    }
+  }
+}
+.main {
+  padding-top: 101px;
+  h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-right: -100px;
+    span {
+      color: #fda700;
+    }
+  }
+  p {
+    max-width: 623px;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .play {
+    margin: 40px 0;
+  }
+  .registrazione {
+    h2 {
+      font-family: 'Orchidea Pro';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #fda700;
+    }
+    padding: 50px 35px 59px 35px;
+    background: rgba(13, 43, 109, 0.8);
+    border-radius: 10px;
+    .form-control {
+      background: #0d2b6d;
+      color: white;
+      &::placeholder {
+        font-weight: 300;
+        font-size: 18px;
+        color: white;
+      }
+    }
+    .iti {
+      width: 100%;
+      color: white;
+    }
+
+    button {
+      padding: 18px 0;
+      color: white;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 20px;
+
+      &:hover {
+        transition: 0.3 all ease;
+        background: #fda700;
+        color: #373737;
+        border-radius: 10px;
+      }
+    }
+  }
+  .item-bottom {
+    margin-top: 162px;
+    padding: 22px 13px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+    p {
+      color: #373737;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      padding: 0 16px;
+    }
+    a {
+      font-family: 'Orchidea Pro';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 12px 25px;
+      color: #373737;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #0d2b6d;
+        color: #fda700;
+      }
+    }
+  }
+}
+.hero {
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.burger-menu {
+  display: none;
+}
