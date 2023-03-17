@@ -486,6 +486,30 @@ h6 {
   .header .burger-menu_nav {
     max-width: unset;
   }
+
+  .problema .title {
+    font-size: 30px;
+  }
+
+  .problema .item h4 {
+    font-size: 18px;
+  }
+
+  .problema .item p {
+    font-size: 14px;
+  }
+
+  .footer .Soluzione-top h2 {
+    font-size: 25px;
+  }
+
+  .footer .Soluzione-bottom h2 {
+    font-size: 25px;
+  }
+
+  .footer .Soluzione-bottom .item .text {
+    max-width: 250px;
+  }
 }
 
 .webp .hero { background: url(../img/bg.webp) no-repeat; }
